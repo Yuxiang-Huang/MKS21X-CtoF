@@ -8,4 +8,8 @@ public class CtoFTester{
 	public static double fahrenheitToCelsius(double f){
                 return (f - 32) * 5/9;
         }
+        public static void main(String[] args){
+                System.out.println(celsiusToFahrenheit(30.0));
+                System.out.println(fahrenheitToCelsius(212.0));
+	}
 }
